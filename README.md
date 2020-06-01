@@ -7,9 +7,17 @@
  ##### header h5
  ###### header h6
 
- <a href="url">test</a>
+ <a href="url">test</a>  
 
- <!-- ขาดสร้าง list -->
+ 1. git test
+ 2. git test
+ 3. git test
+ 40. git test
+ 17.  git test
+
+* git test
+- git test
++ git test
 
 **git test**  
 __git test__  
@@ -18,7 +26,9 @@ _git test_
 __*git test*__   
 **_git test_**
 
-<!-- ขาดสร้าง <hr> -->
+***
+---
+___
 
 > test  
 >> test
@@ -39,18 +49,19 @@ __*git test*__
 สร้าง link  
 สร้าง list  
 สร้าง ตัวหนา ตัวเอียง  
-สร้าง <hr>  
-สร้าง blockquotes  
-slide 43 git flow 
-ให้ลองเขียน สร้างไฟล์ .txt
-พิมพ์ข้อความอะไรก็ได้
-save และ ทำการ add file
-ขึ้น repository ของเรา
-เข้าไปเช็คว่าไฟล์ของเราขึ้นไปหรือไม่ที่เว็บ git 
-ลองลบไฟล์ .txt ออก
-ลอง git restore จาก repo มาที่เครื่องเรา
+สร้าง < hr >  
+สร้าง blockquotes   
 
-**3.slide 50 git branch**  
+**3.slide 43 git flow**   
+ให้ลองเขียน สร้างไฟล์ .txt  
+พิมพ์ข้อความอะไรก็ได้  
+save และ ทำการ add file  
+ขึ้น repository ของเรา  
+เข้าไปเช็คว่าไฟล์ของเราขึ้นไปหรือไม่ที่เว็บ git   
+ลองลบไฟล์ .txt ออก  
+ลอง git restore จาก repo มาที่เครื่องเรา  
+
+**4.slide 50 git branch**  
 สร้าง branch  ใหม่ด้วย  
 git branch  
 checkout ไป branch ใหม่  
@@ -64,11 +75,11 @@ git branch -d branch_name
 ลอง ใช้คำสั่ง git checkout -b branch_name  
 สร้างไฟล์ .txt upload  
 สลับมา master  
-กูการเปลี่ยนแปลง  
+ดูการเปลี่ยนแปลง  
 
 
 
-**4.slide 56 git merge**  
+**5.slide 56 git merge**  
 กรณีมี conflict  
 แก้ไข file .txt ใน master  
 push ขึ้น repo  
@@ -90,7 +101,7 @@ push ขึ้น repo
 ทำการ merge เข้ากับ master 
 อีกรอบ  
 
-**5.slide 65 git rebase**  
+**6.slide 65 git rebase**  
 กรณีมี conflict   
 สร้าง branch ใหม่  
 แก้ไข file .txt ใน master
@@ -107,7 +118,7 @@ push ขึ้น repo
 ทำการ rebase เข้ากับ master 
 อีกรอบ  
 
-**6.slide 69 git ignore**  
+**7.slide 69 git ignore**  
 ลอง สร้างไฟล์ .html, .css, .js
 push repo  
 
